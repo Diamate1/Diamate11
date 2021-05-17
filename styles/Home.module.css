@@ -1,0 +1,176 @@
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 94vh;
+}
+.mainAL {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.card {
+  width: 50vh;
+  height: 30vh;
+  border-radius: 1vw;
+  background: rgb(120, 30, 255);
+  box-shadow: 0 0 1em rgb(120, 30, 255);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.profilePicName {
+  width: 30%;
+  height: 100%;
+}
+.sepCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.separarCard {
+  border: 1px solid rgb(120, 100, 255);
+  height: 10vh;
+  box-shadow: 0 0 1em rgb(120, 100, 255);
+  border-radius: 1vh;
+}
+.profilePicNameAL {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.Pic {
+  display: flex;
+  justify-content: center;
+  height: 13vh;
+  width: 100%;
+  margin-bottom: 1vh;
+}
+.PicAl {
+  width: 13vh;
+  height: 13vh;
+  border: 3px solid rgb(120, 100, 255);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.Name {
+  width: 100%;
+  text-align: center;
+  font-size: 2vh;
+}
+.profileDescCont {
+
+  width: 70%;
+  height: 100%;
+  padding: 1vh;
+}
+.Desc {
+  
+}
+.Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 3vh;
+  font-size: 2.5vh;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+.DescBD {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
+  font-size: 1.5vh;
+  margin-bottom: 1vh;
+}
+.Contato {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 3vh;
+}
+.ContactImgLK {
+  height: 100%;
+  margin-right: 1vh;
+}
+.ContactImg {
+  height: 100%;
+}
+
+
+
+/*-------------NAV-------------*/
+
+
+
+.nav {
+  width: 100%;
+  background: rgb(120, 30, 255);
+  height: 6vh;
+  box-shadow: 0 0 1em rgb(120, 30, 255);
+}
+.navUl {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navLi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-size: 2.5vh;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+/*-------------Footer-------------*/
+
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+  background: rgb(120, 30, 255);
+  box-shadow: 0 0 1em rgb(120, 30, 255);
+}
+.divFoot {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+  height: 100%;
+  padding: 1vh;
+  font-size: 2.5vh;
+  display: flex;
+  text-align: center;
+}
+.divFoot:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.sep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.separarFooter {
+  border: 1px solid rgb(120, 100, 255);
+  height: 10vh;
+  box-shadow: 0 0 1em rgb(120, 100, 255);
+  border-radius: 1vh;
+}
