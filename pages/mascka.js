@@ -55,7 +55,7 @@ export default function Home() {
                 </div>
                 
                 <div className={styles.DescBD}>
-                  <audio controls autoplay>
+                  <audio controls autoplay style={{'width': '100%'}}>
                       <source src="static/audio/young mascka/young mascka - 7 palmos.mp3/" />
                   </audio>
                 </div>
