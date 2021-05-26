@@ -60,6 +60,8 @@
   width: 100%;
   text-align: center;
   font-size: 2vh;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
 }
 .profileDescCont {
 
