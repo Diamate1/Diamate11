@@ -30,7 +30,7 @@ export default function Home() {
                 <div className={styles.Pic}>
                   <div className={styles.PicAl}>
                     <Image 
-                      src="/static/images/Pic.jpg"
+                      src="/static/images/mascka.png"
                       width={500}
                       height={500}
                     />
